@@ -113,4 +113,4 @@ multi-pdf-rag/
 
 ## Author
 
-**Viraj Bane** — BE, Viva Institute of Technology (2026)
+**Viraj Bane**
