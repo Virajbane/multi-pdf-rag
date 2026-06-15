@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Node
+node_modules/
+.next/
+
+# Data — never commit vectors or uploaded files
+backend/data/
+backend/logs/
+
+# OS
+.DS_Store
+Thumbs.db

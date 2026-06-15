@@ -1,0 +1,29 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6    # ASGI server that runs FastAPI
+
+# LangChain core — the orchestration framework
+langchain==0.3.0
+langchain-community==0.3.0   # Third-party integrations (Chroma, Ollama)
+langchain-ollama==0.2.0 
+langchain-chroma==0.1.4     # Official Ollama integration for LangChain
+
+# PDF processing
+pymupdf==1.24.10              # Fast, reliable PDF parser (fitz)
+pypdf==4.3.1                  # Fallback PDF parser
+
+# Vector database
+chromadb==0.5.15              # Local vector store — no cloud needed
+
+# Data validation
+pydantic==2.9.2
+pydantic-settings==2.5.2     # For .env loading
+
+# Utilities
+python-multipart==0.0.12     # Required for file upload in FastAPI
+python-dotenv==1.0.1
+aiofiles==24.1.0             # Async file operations
+loguru==0.7.2                # Beautiful structured logging
+
+# For embeddings
+sentence-transformers==3.1.1 # Local embedding models
